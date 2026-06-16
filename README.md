@@ -1,8 +1,8 @@
 # Vietnamese Spell Correction — Inference
 
 Sửa lỗi chính tả tiếng Việt bằng mô hình **Hierarchical Transformer** (word‑level +
-char‑level encoder, detection head + correction head). Gói này **chỉ chứa code
-inference** (không có code train), kèm engine tối ưu tốc độ, REST API và UI web.
+char‑level encoder, detection head + correction head). Gói này **chứa code
+inference** kèm engine tối ưu tốc độ, REST API và UI web.
 
 Hai chế độ chạy:
 
