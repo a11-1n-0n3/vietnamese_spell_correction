@@ -1,0 +1,12 @@
+torch>=2.3
+
+# hybrid seq2seq corrector (protonx-models/protonx-legal-tc)
+transformers>=4.30
+sentencepiece
+huggingface_hub
+
+# packaging / UI (serve.py, app.py)
+fastapi
+uvicorn
+pydantic>=2
+streamlit

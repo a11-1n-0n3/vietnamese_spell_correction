@@ -1,0 +1,13 @@
+# model weights — too large for git; download separately (see README)
+*.pt
+*.bin
+*.safetensors
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store
