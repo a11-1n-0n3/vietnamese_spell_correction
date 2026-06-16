@@ -101,8 +101,8 @@ streamlit run app.py
 Benchmark:
 
 ```bash
-python infer.py --benchmark --device cuda --batch_size 256 --n 4000
-python infer.py --benchmark --device cuda --batch_size 256 --n 4000 --compile
+python infer.py --benchmark --device cuda --batch_size 2048 --n 10000
+python infer.py --benchmark --device cuda --batch_size 2048 --n 10000 --compile
 ```
 Output in A4000 (16GB)
 device = cuda, n = 10000, batch_size = 2048, batches = 5
@@ -140,3 +140,7 @@ Phụ thuộc nội bộ: `serve.py`,`app.py` → `pipeline.py` → `infer.py` �
   word embedding). ~30.6M tham số. Vocab: 30k từ / 402 ký tự. `max_len=192`.
 - **protonx-models/protonx-legal-tc**: T5 seq2seq text‑correction tiếng Việt
   (~226M tham số), input là text thô, không cần task prefix.
+
+## Acknowledgements
+
+Special thanks to Quynh Le (@pquynhle) for her valuable support in model training, experimentation, and performance optimization. Her contributions were instrumental in improving the quality and effectiveness of this project.
